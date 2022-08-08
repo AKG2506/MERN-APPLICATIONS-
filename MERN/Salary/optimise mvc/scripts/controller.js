@@ -25,7 +25,7 @@ function doCalc(){
 }
 
 function createPTag(key, val){
-    <p>{key} is {val}/p>
+    
     const pTag = document.createElement('p'); //
     pTag.innerText =`${key} is  ${val}`;
     
